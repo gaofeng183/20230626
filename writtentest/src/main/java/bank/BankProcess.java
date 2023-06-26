@@ -13,6 +13,9 @@ public class BankProcess {
     process(10, 3);
   }
 
+  /**
+   * 银行排队
+   **/
   public static void process(int numCustomers, int numWindow) {
     BankQueue bankQueue = new BankQueue(numWindow);
     for (int i = 0; i < numCustomers; i++) {
